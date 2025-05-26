@@ -41,7 +41,7 @@ class LoginController extends Controller
     protected function redirectTo(): string
     {
         $user = getAuthUser();
-        if ($user->hasAnyRole([UserRoleEnum::ADMIN->value, UserRoleEnum::MANAGER->value,]))
+        if ($user->hasAnyRole([UserRoleEnum::ADMIN->value]))
             return RouteServiceProvider::ADMIN;
         else
             return RouteServiceProvider::HOME;

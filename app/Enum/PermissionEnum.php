@@ -50,10 +50,7 @@ enum PermissionEnum: string
     case CREATE_ROLES = 'create roles';
     case ASSIGN_PERMISSION_TO_ROLES = 'assign permissions to roles';
     case ASSIGN_PERMISSION_TO_USERS = 'assign permissions to users';
-    case VIEW_MANAGERS = 'view managers';
-    case CREATE_MANAGER = 'create manager';
-    case EDIT_MANAGER = 'edit manager';
-    case DELETE_MANAGER = 'delete manager';
+
 
 
 
